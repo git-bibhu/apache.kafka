@@ -20,7 +20,7 @@ namespace Kafka.Connector
         {
             var conf = new ConsumerConfig
             {
-                GroupId = "razor-request-consumer",
+                GroupId = "request-consumer",
                 BootstrapServers = "localhost:9092",
                 AutoOffsetReset = AutoOffsetReset.Earliest
             };
